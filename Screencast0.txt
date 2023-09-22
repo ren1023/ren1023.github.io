@@ -1,0 +1,838 @@
+locale:C
+Version:Jun 17 2021  13:38:09
+Public:2021-06-11 15:28:52
+==========================================
+2022-07-12 19:05:06
+==========================================
+Release
+==========================================
+2022-07-11 19:05:06.816 Loader[77430:3218681] en_TW
+2022-07-11 19:05:06.816 Loader[77430:3218681] en
+2022-07-11 19:05:06.816 Loader[77430:3218681] TW
+2022-07-11 19:05:06.816 Loader[77430:3218681] Loader
+2022-07-11 19:05:06.816 Loader[77430:3218681] {
+    "COMMAND_MODE" = unix2003;
+    HOME = "/Users/renyu";
+    LOGNAME = renyu;
+    PATH = "/usr/bin:/bin:/usr/sbin:/sbin";
+    SHELL = "/bin/bash";
+    "SSH_AUTH_SOCK" = "/private/tmp/com.apple.launchd.Noa0K8qIj3/Listeners";
+    TMPDIR = "/var/folders/6v/9t_kykh17wlg15rn795xq7jr0000gn/T/";
+    USER = renyu;
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "application.com.fonepaw.fonepaw-screen-recorder.21308321.21308445";
+    "__CFBundleIdentifier" = "com.fonepaw.fonepaw-screen-recorder";
+    "__CF_USER_TEXT_ENCODING" = "0x1F5:0x2:0x35";
+}
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Pro
+      Model Identifier: MacBookPro16,1
+      Processor Name: 8-Core Intel Core i9
+      Processor Speed: 2.4 GHz
+      Number of Processors: 1
+      Total Number of Cores: 8
+      L2 Cache (per Core): 256 KB
+      L3 Cache: 16 MB
+      Hyper-Threading Technology: Enabled
+      Memory: 64 GB
+      System Firmware Version: 1731.120.10.0.0 (iBridge: 19.16.15071.0.0,0)
+      OS Loader Version: 540.120.3~6
+      Serial Number (system): C02CG26JMD6T
+      Hardware UUID: 4FA39691-55DD-50EB-BFEB-F02ECD21C983
+      Provisioning UDID: 4FA39691-55DD-50EB-BFEB-F02ECD21C983
+      Activation Lock Status: Disabled
+
+Graphics/Displays:
+
+    Intel UHD Graphics 630:
+
+      Chipset Model: Intel UHD Graphics 630
+      Type: GPU
+      Bus: Built-In
+      VRAM (Dynamic, Max): 1536 MB
+      Vendor: Intel
+      Device ID: 0x3e9b
+      Revision ID: 0x0002
+      Automatic Graphics Switching: Supported
+      gMux Version: 5.0.0
+      Metal Family: Supported, Metal GPUFamily macOS 2
+      Displays:
+        Color LCD:
+          Display Type: Built-In Retina LCD
+          Resolution: 3072 x 1920 Retina
+          Framebuffer Depth: 24-Bit Color (ARGB8888)
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+          Automatically Adjust Brightness: Yes
+          Connection Type: Internal
+
+    AMD Radeon Pro 5500M:
+
+      Chipset Model: AMD Radeon Pro 5500M
+      Type: GPU
+      Bus: PCIe
+      PCIe Lane Width: x16
+      VRAM (Total): 8 GB
+      Vendor: AMD (0x1002)
+      Device ID: 0x7340
+      Revision ID: 0x0040
+      ROM Revision: 113-D3220E-190
+      VBIOS Version: 113-D32206U1-019
+      Option ROM Version: 113-D32206U1-019
+      EFI Driver Version: 01.A1.190
+      Automatic Graphics Switching: Supported
+      gMux Version: 5.0.0
+      Metal Family: Supported, Metal GPUFamily macOS 2
+      Displays:
+        Sidecar Display:
+          Resolution: 2732 x 2048
+          UI Looks like: 1366 x 1024 @ 60.00Hz
+          Framebuffer Depth: 24-Bit Color (ARGB8888)
+          Mirror: Off
+          Connection Type: AirPlay
+
+2022-07-11 19:05:07.476 Loader[77430:3218681] Version 10.16 (Build 21F79)
+2022-07-11 19:05:07.476 Loader[77430:3218681] Processor count=16
+2022-07-11 19:05:07.476 Loader[77430:3218681] Physical memory=64GB
+2022-07-11 19:05:09.298 Loader[77430:3218681] Render(0):AMD Radeon Pro 5500M OpenGL Engine
+2022-07-11 19:05:09.299 Loader[77430:3218681] Render(1):Apple Software Renderer
+2022-07-11 19:05:09.299 Loader[77430:3218681] X64_64
+2022-07-11 19:05:09.303 Loader[77430:3218681]  [Msg] NSOpenGL version: 1.2
+2022-07-11 19:05:09.303 Loader[77430:3218681]  [Msg] CGL version: 1.2
+2022-07-11 19:05:09.303 Loader[77430:3218681]  [Msg] Running on a Intel(R) UHD Graphics 630 from Intel Inc.
+2022-07-11 19:05:09.303 Loader[77430:3218681]  [Msg] OpenGL version: 4.1 INTEL-18.7.4
+2022-07-11 19:05:09.303 Loader[77430:3218681]  [Msg] Shading language: 4.10
+2022-07-11 19:05:09.488 Loader[77430:3218681] {
+    CodecName = "24-bit RGB";
+    CodecType = 24;
+    DisplayName = "24-bit RGB";
+    EncoderID = "com.apple.videotoolbox.videoencoder.24rgb";
+    EncoderName = "Apple 24-bit RGB";
+    PerformanceRating = 0;
+}
+2022-07-11 19:05:09.488 Loader[77430:3218681] {
+    CodecName = "32-bit ARGB";
+    CodecType = 32;
+    DisplayName = "32-bit ARGB";
+    EncoderID = "com.apple.videotoolbox.videoencoder.32argb";
+    EncoderName = "Apple 32-bit ARGB";
+    PerformanceRating = 0;
+}
+2022-07-11 19:05:09.488 Loader[77430:3218681] {
+    CodecName = "Apple ProRes 422";
+    CodecType = 1634755438;
+    DisplayName = "Apple ProRes 422";
+    EncoderID = "com.apple.videotoolbox.videoencoder.prores-422";
+    EncoderName = "Apple ProRes 422";
+}
+2022-07-11 19:05:09.488 Loader[77430:3218681] {
+    CodecName = "Apple ProRes 422 HQ";
+    CodecType = 1634755432;
+    DisplayName = "Apple ProRes 422 HQ";
+    EncoderID = "com.apple.videotoolbox.videoencoder.prores-422hq";
+    EncoderName = "Apple ProRes 422 HQ";
+}
+2022-07-11 19:05:09.488 Loader[77430:3218681] {
+    CodecName = "Apple ProRes 422 LT";
+    CodecType = 1634755443;
+    DisplayName = "Apple ProRes 422 LT";
+    EncoderID = "com.apple.videotoolbox.videoencoder.prores-422lt";
+    EncoderName = "Apple ProRes 422 LT";
+}
+2022-07-11 19:05:09.488 Loader[77430:3218681] {
+    CodecName = "Apple ProRes 422 Proxy";
+    CodecType = 1634755439;
+    DisplayName = "Apple ProRes 422 Proxy";
+    EncoderID = "com.apple.videotoolbox.videoencoder.prores-422proxy";
+    EncoderName = "Apple ProRes 422 Proxy";
+}
+2022-07-11 19:05:09.488 Loader[77430:3218681] {
+    CodecName = "Apple ProRes 4444";
+    CodecType = 1634743400;
+    DisplayName = "Apple ProRes 4444";
+    EncoderID = "com.apple.videotoolbox.videoencoder.prores-4444";
+    EncoderName = "Apple ProRes 4444";
+}
+2022-07-11 19:05:09.488 Loader[77430:3218681] {
+    CodecName = "Apple ProRes 4444 XQ";
+    CodecType = 1634743416;
+    DisplayName = "Apple ProRes 4444 XQ";
+    EncoderID = "com.apple.videotoolbox.videoencoder.prores-4444xq";
+    EncoderName = "Apple ProRes 4444 XQ";
+}
+2022-07-11 19:05:09.488 Loader[77430:3218681] {
+    CodecName = Depth;
+    CodecType = 1684369512;
+    DisplayName = Depth;
+    EncoderID = "com.apple.videotoolbox.videoencoder.depth-hevc:com.apple.videotoolbox.videoencoder.hevc.vcp";
+    EncoderName = "Apple Depth (HEVC)-Apple HEVC (SW)";
+    PerformanceRating = 0;
+    QualityRating = 100;
+    SupportedSelectionProperties =     {
+    };
+}
+2022-07-11 19:05:09.488 Loader[77430:3218681] {
+    CodecName = Disparity;
+    CodecType = 1684632424;
+    DisplayName = Disparity;
+    EncoderID = "com.apple.videotoolbox.videoencoder.disparity-hevc:com.apple.videotoolbox.videoencoder.hevc.vcp";
+    EncoderName = "Apple Disparity (HEVC)-Apple HEVC (SW)";
+    PerformanceRating = 0;
+    QualityRating = 100;
+    SupportedSelectionProperties =     {
+    };
+}
+2022-07-11 19:05:09.488 Loader[77430:3218681] {
+    CodecName = "H.263";
+    CodecType = 1748121139;
+    DisplayName = "H.263";
+    EncoderID = "com.apple.videotoolbox.videoencoder.h263";
+    EncoderName = "Apple H.263 (SW)";
+    PerformanceRating = "-10";
+}
+2022-07-11 19:05:09.489 Loader[77430:3218681] {
+    CodecName = "H.264";
+    CodecType = 1635148593;
+    DisplayName = "Apple H.264 (HW)";
+    EncoderID = "com.apple.videotoolbox.videoencoder.h264.gva";
+    EncoderName = "Apple H.264 (HW)";
+    IsHardwareAccelerated = 1;
+    PerformanceRating = 400;
+    SupportsMultiPass = 1;
+}
+2022-07-11 19:05:09.489 Loader[77430:3218681] {
+    CodecName = "H.264";
+    CodecType = 1635148593;
+    DisplayName = "Apple H.264 (HW)";
+    EncoderID = "com.apple.videotoolbox.videoencoder.h264.gva";
+    EncoderName = "Apple H.264 (HW)";
+    IsHardwareAccelerated = 1;
+    PerformanceRating = 400;
+    SupportsMultiPass = 1;
+}
+2022-07-11 19:05:09.489 Loader[77430:3218681] {
+    CodecName = "H.264";
+    CodecType = 1635148593;
+    DisplayName = "Apple H.264 (SW)";
+    EncoderID = "com.apple.videotoolbox.videoencoder.h264";
+    EncoderName = "Apple H.264 (SW)";
+    PerformanceRating = 200;
+}
+2022-07-11 19:05:09.489 Loader[77430:3218681] {
+    CodecName = HEVC;
+    CodecType = 1752589105;
+    DisplayName = "Apple HEVC (AVE)";
+    EncoderID = "com.apple.videotoolbox.videoencoder.hevc.ave";
+    EncoderName = "Apple HEVC (AVE)";
+    InstanceLimit = 1;
+    IsHardwareAccelerated = 1;
+    PerformanceRating = 400;
+    QualityRating = 90;
+    SupportedSelectionProperties =     {
+        ProfileLevel =         (
+            "HEVC_Main_AutoLevel",
+            "HEVC_Main10_AutoLevel"
+        );
+    };
+}
+2022-07-11 19:05:09.489 Loader[77430:3218681] {
+    CodecName = HEVC;
+    CodecType = 1752589105;
+    DisplayName = "Apple HEVC (HW)";
+    EncoderID = "com.apple.videotoolbox.videoencoder.hevc.gva";
+    EncoderName = "Apple HEVC (HW)";
+    IsHardwareAccelerated = 1;
+    PerformanceRating = 100;
+    QualityRating = 80;
+    SupportedSelectionProperties =     {
+        ProfileLevel =         (
+            "HEVC_Main_AutoLevel",
+            "HEVC_Main10_AutoLevel"
+        );
+    };
+}
+2022-07-11 19:05:09.489 Loader[77430:3218681] {
+    CodecName = HEVC;
+    CodecType = 1752589105;
+    DisplayName = "Apple HEVC (HW)";
+    EncoderID = "com.apple.videotoolbox.videoencoder.hevc.gva";
+    EncoderName = "Apple HEVC (HW)";
+    IsHardwareAccelerated = 1;
+    PerformanceRating = 350;
+    QualityRating = 50;
+    SupportedSelectionProperties =     {
+        ProfileLevel =         (
+            "HEVC_Main_AutoLevel"
+        );
+    };
+    SupportsFrameReordering = 0;
+}
+2022-07-11 19:05:09.489 Loader[77430:3218681] {
+    CodecName = HEVC;
+    CodecType = 1752589105;
+    DisplayName = "Apple HEVC (SW)";
+    EncoderID = "com.apple.videotoolbox.videoencoder.hevc.vcp";
+    EncoderName = "Apple HEVC (SW)";
+    PerformanceRating = 0;
+    QualityRating = 100;
+    SupportedSelectionProperties =     {
+        ProfileLevel =         (
+            "HEVC_Main_AutoLevel",
+            "HEVC_Main10_AutoLevel"
+        );
+    };
+}
+2022-07-11 19:05:09.489 Loader[77430:3218681] {
+    CodecName = JPEG;
+    CodecType = 1785750887;
+    DisplayName = JPEG;
+    EncoderID = "com.apple.videotoolbox.videoencoder.jpeg";
+    EncoderName = "Apple JPEG";
+    PerformanceRating = "-10";
+}
+2022-07-11 19:05:09.489 Loader[77430:3218681] {
+    CodecName = "Muxed Alpha";
+    CodecType = 1836415073;
+    DisplayName = "Apple Muxed Alpha-Apple HEVC (HW)";
+    EncoderID = "com.apple.videotoolbox.videoencoder.hevc-with-alpha:com.apple.videotoolbox.videoencoder.hevc.gva";
+    EncoderName = "Apple Muxed Alpha-Apple HEVC (HW)";
+    IsHardwareAccelerated = 1;
+    PerformanceRating = 100;
+    QualityRating = 80;
+    SupportedSelectionProperties =     {
+        ProfileLevel =         (
+            "HEVC_Main_AutoLevel",
+            "HEVC_Main10_AutoLevel"
+        );
+    };
+}
+2022-07-11 19:05:09.489 Loader[77430:3218681] {
+    CodecName = "Muxed Alpha";
+    CodecType = 1836415073;
+    DisplayName = "Apple Muxed Alpha-Apple HEVC (HW)";
+    EncoderID = "com.apple.videotoolbox.videoencoder.hevc-with-alpha:com.apple.videotoolbox.videoencoder.hevc.gva";
+    EncoderName = "Apple Muxed Alpha-Apple HEVC (HW)";
+    IsHardwareAccelerated = 1;
+    PerformanceRating = 350;
+    QualityRating = 50;
+    SupportedSelectionProperties =     {
+        ProfileLevel =         (
+            "HEVC_Main_AutoLevel"
+        );
+    };
+    SupportsFrameReordering = 0;
+}
+2022-07-11 19:05:09.489 Loader[77430:3218681] {
+    CodecName = "Muxed Alpha";
+    CodecType = 1836415073;
+    DisplayName = "Apple Muxed Alpha-Apple HEVC (SW)";
+    EncoderID = "com.apple.videotoolbox.videoencoder.hevc-with-alpha:com.apple.videotoolbox.videoencoder.hevc.vcp";
+    EncoderName = "Apple Muxed Alpha-Apple HEVC (SW)";
+    PerformanceRating = 0;
+    QualityRating = 100;
+    SupportedSelectionProperties =     {
+        ProfileLevel =         (
+            "HEVC_Main_AutoLevel",
+            "HEVC_Main10_AutoLevel"
+        );
+    };
+}
+2022-07-11 19:05:09.489 Loader[77430:3218681]  [Msg] *************************************
+2022-07-11 19:05:09.489 Loader[77430:3218681]  [Msg] H264: {
+    CodecName = "H.264";
+    CodecType = 1635148593;
+    DisplayName = "Apple H.264 (HW)";
+    EncoderID = "com.apple.videotoolbox.videoencoder.h264.gva";
+    EncoderName = "Apple H.264 (HW)";
+    IsHardwareAccelerated = 1;
+    PerformanceRating = 400;
+    SupportsMultiPass = 1;
+}
+2022-07-11 19:05:09.489 Loader[77430:3218681] HW={
+    CodecName = HEVC;
+    CodecType = 1752589105;
+    DisplayName = "Apple HEVC (AVE)";
+    EncoderID = "com.apple.videotoolbox.videoencoder.hevc.ave";
+    EncoderName = "Apple HEVC (AVE)";
+    InstanceLimit = 1;
+    IsHardwareAccelerated = 1;
+    PerformanceRating = 400;
+    QualityRating = 90;
+    SupportedSelectionProperties =     {
+        ProfileLevel =         (
+            "HEVC_Main_AutoLevel",
+            "HEVC_Main10_AutoLevel"
+        );
+    };
+}
+2022-07-11 19:05:09.489 Loader[77430:3218681]  [Msg] HEVC: {
+    CodecName = HEVC;
+    CodecType = 1752589105;
+    DisplayName = "Apple HEVC (AVE)";
+    EncoderID = "com.apple.videotoolbox.videoencoder.hevc.ave";
+    EncoderName = "Apple HEVC (AVE)";
+    InstanceLimit = 1;
+    IsHardwareAccelerated = 1;
+    PerformanceRating = 400;
+    QualityRating = 90;
+    SupportedSelectionProperties =     {
+        ProfileLevel =         (
+            "HEVC_Main_AutoLevel",
+            "HEVC_Main10_AutoLevel"
+        );
+    };
+}
+2022-07-11 19:05:09.489 Loader[77430:3218681]  [Msg] AppleProRes422: {
+    CodecName = "Apple ProRes 422";
+    CodecType = 1634755438;
+    DisplayName = "Apple ProRes 422";
+    EncoderID = "com.apple.videotoolbox.videoencoder.prores-422";
+    EncoderName = "Apple ProRes 422";
+}
+2022-07-11 19:05:09.489 Loader[77430:3218681]  [Msg] AppleProRes4444: {
+    CodecName = "Apple ProRes 4444";
+    CodecType = 1634743400;
+    DisplayName = "Apple ProRes 4444";
+    EncoderID = "com.apple.videotoolbox.videoencoder.prores-4444";
+    EncoderName = "Apple ProRes 4444";
+}
+2022-07-11 19:05:09.489 Loader[77430:3218681]  [Msg] *************************************
+2022-07-11 19:05:09.489 Loader[77430:3218681] HW={
+    CodecName = HEVC;
+    CodecType = 1752589105;
+    DisplayName = "Apple HEVC (AVE)";
+    EncoderID = "com.apple.videotoolbox.videoencoder.hevc.ave";
+    EncoderName = "Apple HEVC (AVE)";
+    InstanceLimit = 1;
+    IsHardwareAccelerated = 1;
+    PerformanceRating = 400;
+    QualityRating = 90;
+    SupportedSelectionProperties =     {
+        ProfileLevel =         (
+            "HEVC_Main_AutoLevel",
+            "HEVC_Main10_AutoLevel"
+        );
+    };
+}
+2022-07-11 19:05:09.490 Loader[77430:3218681] HEVCEncoder={
+    CodecName = HEVC;
+    CodecType = 1752589105;
+    DisplayName = "Apple HEVC (AVE)";
+    EncoderID = "com.apple.videotoolbox.videoencoder.hevc.ave";
+    EncoderName = "Apple HEVC (AVE)";
+    InstanceLimit = 1;
+    IsHardwareAccelerated = 1;
+    PerformanceRating = 400;
+    QualityRating = 90;
+    SupportedSelectionProperties =     {
+        ProfileLevel =         (
+            "HEVC_Main_AutoLevel",
+            "HEVC_Main10_AutoLevel"
+        );
+    };
+}
+2022-07-11 19:05:09.490 Loader[77430:3218681] HEVC_Main10_AutoLevel YES
+2022-07-11 19:05:09.490 Loader[77430:3218681]  [Msg] *************************************
+2022-07-11 19:05:09.496 Loader[77430:3218681]  [Msg] Display0: 0x0-1792x1120, Width=1792, Height=1120
+2022-07-11 19:05:09.496 Loader[77430:3218681]  [Msg] Display1: -1366x0-1366x1024, Width=1366, Height=1024
+2022-07-11 19:05:09.496 Loader[77430:3218681]  [Msg] ===============DISPLAY===================
+2022-07-11 19:05:09.496 Loader[77430:3218681] {
+    NSDeviceBitsPerSample = 8;
+    NSDeviceColorSpaceName = NSCalibratedRGBColorSpace;
+    NSDeviceIsScreen = YES;
+    NSDeviceResolution = "NSSize: {144, 144}";
+    NSDeviceSize = "NSSize: {1792, 1120}";
+    NSScreenNumber = 2077748985;
+}
+2022-07-11 19:05:09.497 Loader[77430:3218681] <CGDisplayMode 0x600001889940> [{
+    BitsPerPixel = 32;
+    BitsPerSample = 8;
+    DepthFormat = 4;
+    Height = 1120;
+    IODisplayModeID = "-2147471256";
+    IOFlags = 7;
+    Mode = 150;
+    PixelEncoding = "--------RRRRRRRRGGGGGGGGBBBBBBBB";
+    RefreshRate = "59.99967956542969";
+    SamplesPerPixel = 3;
+    UsableForDesktopGUI = 1;
+    Width = 1792;
+    kCGDisplayBytesPerRow = 14336;
+    kCGDisplayHorizontalResolution = 264;
+    kCGDisplayModeIsInterlaced = 0;
+    kCGDisplayModeIsSafeForHardware = 1;
+    kCGDisplayModeIsStretched = 0;
+    kCGDisplayModeIsTelevisionOutput = 0;
+    kCGDisplayModeIsUnavailable = 0;
+    kCGDisplayModeSuitableForUI = 1;
+    kCGDisplayPixelsHigh = 2240;
+    kCGDisplayPixelsWide = 3584;
+    kCGDisplayResolution = 2;
+    kCGDisplayVerticalResolution = 265;
+}] 
+2022-07-11 19:05:09.497 Loader[77430:3218681]  [Msg] ==========================================
+2022-07-11 19:05:09.497 Loader[77430:3218681]  [Msg] ===============DISPLAY===================
+2022-07-11 19:05:09.497 Loader[77430:3218681] {
+    NSDeviceBitsPerSample = 8;
+    NSDeviceColorSpaceName = NSCalibratedRGBColorSpace;
+    NSDeviceIsScreen = YES;
+    NSDeviceResolution = "NSSize: {144, 144}";
+    NSDeviceSize = "NSSize: {1366, 1024}";
+    NSScreenNumber = 4128833;
+}
+2022-07-11 19:05:09.497 Loader[77430:3218681] <CGDisplayMode 0x600001884040> [{
+    BitsPerPixel = 32;
+    BitsPerSample = 8;
+    DepthFormat = 4;
+    Height = 1024;
+    IODisplayModeID = 1;
+    IOFlags = 7;
+    Mode = 1;
+    PixelEncoding = "--------RRRRRRRRGGGGGGGGBBBBBBBB";
+    RefreshRate = 60;
+    SamplesPerPixel = 3;
+    UsableForDesktopGUI = 1;
+    Width = 1366;
+    kCGDisplayBytesPerRow = 10928;
+    kCGDisplayHorizontalResolution = 144;
+    kCGDisplayModeIsInterlaced = 0;
+    kCGDisplayModeIsSafeForHardware = 1;
+    kCGDisplayModeIsStretched = 0;
+    kCGDisplayModeIsTelevisionOutput = 0;
+    kCGDisplayModeIsUnavailable = 0;
+    kCGDisplayModeSuitableForUI = 1;
+    kCGDisplayPixelsHigh = 2048;
+    kCGDisplayPixelsWide = 2732;
+    kCGDisplayResolution = 2;
+    kCGDisplayVerticalResolution = 144;
+}] 
+2022-07-11 19:05:09.497 Loader[77430:3218681]  [Msg] ==========================================
+2022-07-11 19:05:09.498 Loader[77430:3218681]  [Msg] ===============SCREENS===================
+2022-07-11 19:05:09.498 Loader[77430:3218681]  [Msg] 1, Name=Built-in Retina Display, Display={0x0-3584x2240}(3584x2240), Screen={0x0-1792x1120}(1792x1120)
+2022-07-11 19:05:09.498 Loader[77430:3218681]  [Msg] 2, Name=Sidecar Display, Display={-2732x0-0x2048}(2732x2048), Screen={-1366x0-0x1024}(1366x1024)
+2022-07-11 19:05:09.498 Loader[77430:3218681]  [Msg] ==========================================
+2022-07-11 19:05:09.498 Loader[77430:3218681]  [Msg] Use Display 0
+Display={0x0-3584x2240}(3584x2240)
+Screen={0x0-1792x1120}(1792x1120)
+ScaleFactor=2
+Display resolution=3584x2240
+2022-07-11 19:05:09.543 Loader[77430:3218681]  [Msg] ===============VIDEO CAPTURES===================
+2022-07-11 19:05:09.543 Loader[77430:3218681]  [Msg] 1, Name=[FaceTime HD攝影機（內建）], Device UID=0x8020000005ac8514
+2022-07-11 19:05:09.543 Loader[77430:3218681]  [Msg] =============================================
+2022-07-11 19:05:09.543 Loader[77430:3218681]  [Msg] ---------------------Audio devices---------------------
+2022-07-11 19:05:09.543 Loader[77430:3218681]  [Msg] Devices Size=8(2)
+2022-07-11 19:05:09.543 Loader[77430:3218681]  [Msg] 1: 81=[MacBook Pro的麥克風] [Capture], UID=[BuiltInMicrophoneDevice] Transport type=BuiltIn
+2022-07-11 19:05:09.544 Loader[77430:3218681]  [Msg] 2: 74=[MacBook Pro的揚聲器] [Render], UID=[BuiltInSpeakerDevice] Transport type=BuiltIn
+2022-07-11 19:05:09.544 Loader[77430:3218681]  [Msg] ---------------------Audio devices---------------------
+2022-07-11 19:05:09.545 Loader[77430:3218681]  [Msg] Devices Size=8(2)
+2022-07-11 19:05:09.551 Loader[77430:3218681]  [Msg] Use Display 0
+Display={0x0-3584x2240}(3584x2240)
+Screen={0x0-1792x1120}(1792x1120)
+ScaleFactor=2
+Display resolution=3584x2240
+2022-07-11 19:05:09.570 Loader[77430:3218681]  [Msg] Use Display 0
+Display={0x0-3584x2240}(3584x2240)
+Screen={0x0-1792x1120}(1792x1120)
+ScaleFactor=2
+Display resolution=3584x2240
+2022-07-11 19:05:09.570 Loader[77430:3218681]  [Msg] Devices Size=8(2)
+2022-07-11 19:05:17.146 Loader[77430:3218681]  [Msg] RequestPermissionScreenCapture ...
+2022-07-11 19:05:17.195 Loader[77430:3218681]  [Msg] RequestPermissionScreenCapture=2
+2022-07-11 19:05:17.195 Loader[77430:3218681]  [Msg] RequestPermissionScreenCapture ...
+2022-07-11 19:05:17.198 Loader[77430:3218681]  [Msg] RequestPermissionScreenCapture=2
+2022-07-11 19:05:17.201 Loader[77430:3218681]  [Msg] Screen Crop ...
+2022-07-11 19:05:17.201 Loader[77430:3218681]  [Msg] Create Object:CScreenCropObject(0x7fb8ec9f2360)
+2022-07-11 19:05:17.212 Loader[77430:3218681]  [Msg] Call:CScreenCropBox, this=0x7fb8ec9f2360
+2022-07-11 19:05:17.393 Loader[77430:3218681]  [Msg] AVMediaType:soun, is granted
+2022-07-11 19:05:17.393 Loader[77430:3218681]  [Msg] AVMediaType:soun, is granted
+2022-07-11 19:05:17.396 Loader[77430:3218681]  [Msg] Check virtual audio device ...
+2022-07-11 19:05:17.396 Loader[77430:3218681]  [Err] Failed to GetDeviceID:APAudioDriver_UID, Error=0, ID=0
+2022-07-11 19:05:30.150 Loader[77430:3218681]  [Msg] AVMediaType:soun, is granted
+2022-07-11 19:05:30.150 Loader[77430:3218681]  [Msg] AVMediaType:soun, is granted
+2022-07-11 19:05:30.160 Loader[77430:3218681]  [Msg] Call:~CScreenCropBox, this=0x7fb8ec9f2360
+2022-07-11 19:05:37.791 Loader[77430:3218681]  [Msg] Create Object:CPictureObject(0x600000a68a80)
+2022-07-11 19:05:37.791 Loader[77430:3218681]  [Msg] Call:CImageWindow, this=0x600000a68a80
+2022-07-11 19:05:40.749 Loader[77430:3218681]  [Msg] Call:~CImageWindow, this=0x600000a68a80
+2022-07-11 19:05:41.420 Loader[77430:3218681]  [Msg] **************************************************
+2022-07-11 19:05:41.420 Loader[77430:3218681]  [Msg] Video Record:/Users/renyu/Library/Application Support/FonePaw/FonePaw Screen Recorder/Screen Recorder/.FonePaw Screen Recorder.mov
+2022-07-11 19:05:41.420 Loader[77430:3218681]  [Msg] The disk free space:219.508GB
+2022-07-11 19:05:41.420 Loader[77430:3218681]  [Msg] *************************************
+2022-07-11 19:05:41.420 Loader[77430:3218681]  [Msg] Format=QuickTimeMovie, Video codec=H264, Audio codec=MPEG4AAC_HE
+2022-07-11 19:05:41.420 Loader[77430:3218681]  [Msg] *************************************
+2022-07-11 19:05:41.420 Loader[77430:3218681]  [Msg] Full Screen
+2022-07-11 19:05:41.420 Loader[77430:3218681]  [Msg] Rect:{0x0-3584x2240}(3584x2240)
+2022-07-11 19:05:41.420 Loader[77430:3218681]  [Msg] Video: FrameRate=60, CodecType=1, Quality=3
+2022-07-11 19:05:41.420 Loader[77430:3218681]  [Msg] Audio: bRender=0, bCapture=1, CodecType=1, Quality=3, Channels=2
+2022-07-11 19:05:41.420 Loader[77430:3218681]  [Msg] Mouse: Method=0, Flag=0x0
+2022-07-11 19:05:41.420 Loader[77430:3218681]  [Msg] ShowRecordingBox=0
+2022-07-11 19:05:41.420 Loader[77430:3218681]  [Msg] Codec video: width=3456, height=2160, Capture size=(3584x2240)
+2022-07-11 19:05:41.420 Loader[77430:3218681]  [Msg] Create Object:CScreenRecoderObject(0x7fb83b858970)
+2022-07-11 19:05:41.421 Loader[77430:3218681]  [Msg] Call:CScreenCaptureVA, this=0x7fb83b858970
+2022-07-11 19:05:41.421 Loader[77430:3218681]  [Msg] Call:CCanvasList, this=0x7fb8ecac3260
+2022-07-11 19:05:41.434 Loader[77430:3218681]  [Msg] Call:CDisplayCaptureVideoStream, this=0x6000035fc600
+2022-07-11 19:05:41.434 Loader[77430:3218681]  [Msg] ===============================================
+2022-07-11 19:05:41.435 Loader[77430:3218681] Screen:{
+    NSDeviceBitsPerSample = 8;
+    NSDeviceColorSpaceName = NSCalibratedRGBColorSpace;
+    NSDeviceIsScreen = YES;
+    NSDeviceResolution = "NSSize: {144, 144}";
+    NSDeviceSize = "NSSize: {1792, 1120}";
+    NSScreenNumber = 69734662;
+}
+2022-07-11 19:05:41.435 Loader[77430:3218681] Screen:{
+    NSDeviceBitsPerSample = 8;
+    NSDeviceColorSpaceName = NSCalibratedRGBColorSpace;
+    NSDeviceIsScreen = YES;
+    NSDeviceResolution = "NSSize: {144, 144}";
+    NSDeviceSize = "NSSize: {1366, 1024}";
+    NSScreenNumber = 4128833;
+}
+2022-07-11 19:05:41.435 Loader[77430:3218681]  [Msg] ===============================================
+2022-07-11 19:05:41.435 Loader[77430:3218681] Display frame:0,0(3584x2240)
+2022-07-11 19:05:41.435 Loader[77430:3218681] Display ID=69734662
+2022-07-11 19:05:41.435 Loader[77430:3218681] outputWidth=3584, outputHeight=2240
+2022-07-11 19:05:41.435 Loader[77430:3218681] Capture Queue=<OS_dispatch_queue_serial: Video Capture Source>
+2022-07-11 19:05:41.435 Loader[77430:3218681] {
+    kCGDisplayStreamColorSpace = "<CGColorSpace 0x600003c803c0> (kCGColorSpaceICCBased; kCGColorSpaceModelRGB; sRGB IEC61966-2.1)";
+    kCGDisplayStreamMinimumFrameTime = "0.03333333333333333";
+    kCGDisplayStreamQueueDepth = 8;
+    kCGDisplayStreamShowCursor = 0;
+}
+2022-07-11 19:05:41.526 Loader[77430:3218681] Video Format Description:<CMVideoFormatDescription 0x600000b8c5a0 [0x7ff84b67ad70]> {
+	mediaType:'vide' 
+	mediaSubType:'420f' 
+	mediaSpecific: {
+		codecType: '420f'		dimensions: 3584 x 2240 
+	} 
+	extensions: {{
+    CVImageBufferColorPrimaries = "ITU_R_709_2";
+    CVImageBufferTransferFunction = "ITU_R_709_2";
+    CVImageBufferYCbCrMatrix = "ITU_R_709_2";
+    IOSurfaceProperties =     {
+    };
+    OpenGLCompatibility = 1;
+    Version = 2;
+}}
+}
+2022-07-11 19:05:41.526 Loader[77430:3218681] Bit Rate:2.5204e+07
+2022-07-11 19:05:41.526 Loader[77430:3218681] Video Settings:{
+    AVVideoCodecKey = avc1;
+    AVVideoColorPropertiesKey =     {
+        ColorPrimaries = "ITU_R_709_2";
+        TransferFunction = "ITU_R_709_2";
+        YCbCrMatrix = "ITU_R_709_2";
+    };
+    AVVideoCompressionPropertiesKey =     {
+        AllowFrameReordering = 0;
+        AverageBitRate = 25204000;
+        ExpectedFrameRate = 30;
+        MaxKeyFrameIntervalDuration = 10;
+        ProfileLevel = "H264_High_AutoLevel";
+        RealTime = 1;
+    };
+    AVVideoHeightKey = 2160;
+    AVVideoScalingModeKey = AVVideoScalingModeResizeAspectFill;
+    AVVideoWidthKey = 3456;
+}
+2022-07-11 19:05:41.638 Loader[77430:3218681] PixelBufferOptions:{
+    CVImageBufferColorPrimaries = "ITU_R_709_2";
+    CVImageBufferTransferFunction = "ITU_R_709_2";
+    CVImageBufferYCbCrMatrix = "ITU_R_709_2";
+    Height = 2240;
+    IOSurfaceProperties =     {
+    };
+    OpenGLCompatibility = 1;
+    PixelFormatType = 875704422;
+    Width = 3584;
+}
+2022-07-11 19:05:41.639 Loader[77430:3218681] Input PixelBuffer Adaptor:<AVAssetWriterInputPixelBufferAdaptor: 0x600001b06270, assetWriterInput = <AVAssetWriterInput: 0x600001a93670, mediaType = vide, outputSettings = {
+    AVVideoCodecKey = avc1;
+    AVVideoColorPropertiesKey =     {
+        ColorPrimaries = "ITU_R_709_2";
+        TransferFunction = "ITU_R_709_2";
+        YCbCrMatrix = "ITU_R_709_2";
+    };
+    AVVideoCompressionPropertiesKey =     {
+        AllowFrameReordering = 0;
+        AverageBitRate = 25204000;
+        ExpectedFrameRate = 30;
+        MaxKeyFrameIntervalDuration = 10;
+        ProfileLevel = "H264_High_AutoLevel";
+        RealTime = 1;
+    };
+    AVVideoHeightKey = 2160;
+    AVVideoScalingModeKey = AVVideoScalingModeResizeAspectFill;
+    AVVideoWidthKey = 3456;
+}>, sourcePixelBufferAttributes = {
+    CVImageBufferColorPrimaries = "ITU_R_709_2";
+    CVImageBufferTransferFunction = "ITU_R_709_2";
+    CVImageBufferYCbCrMatrix = "ITU_R_709_2";
+    Height = 2240;
+    IOSurfaceProperties =     {
+    };
+    OpenGLCompatibility = 1;
+    PixelFormatType = 875704422;
+    Width = 3584;
+}>
+2022-07-11 19:05:41.779 Loader[77430:3218681]  [Msg] Audio capture device=81, name=
+2022-07-11 19:05:41.779 Loader[77430:3218681] Audio capture stream format:LinearPCM(Float,Packed), 48000Hz, 2Channels, 32Bits
+2022-07-11 19:05:41.779 Loader[77430:3218681] Current Physical format:LinearPCM(Float,Packed), 48000Hz, 1Channels, 32Bits
+2022-07-11 19:05:41.779 Loader[77430:3218681] Current Virtual format:LinearPCM(Float,Packed), 48000Hz, 1Channels, 32Bits
+2022-07-11 19:05:41.779 Loader[77430:3218681] ===============================
+2022-07-11 19:05:41.779 Loader[77430:3218681] Available Physical Formats=4:
+2022-07-11 19:05:41.779 Loader[77430:3218681] 1:LinearPCM(Float,Packed), 96000Hz, 1Channels, 32Bits
+2022-07-11 19:05:41.779 Loader[77430:3218681] 2:LinearPCM(Float,Packed), 88200Hz, 1Channels, 32Bits
+2022-07-11 19:05:41.779 Loader[77430:3218681] 3:LinearPCM(Float,Packed), 48000Hz, 1Channels, 32Bits
+2022-07-11 19:05:41.779 Loader[77430:3218681] 4:LinearPCM(Float,Packed), 44100Hz, 1Channels, 32Bits
+2022-07-11 19:05:41.779 Loader[77430:3218681] ===============================
+2022-07-11 19:05:41.780 Loader[77430:3218681] ===============================
+2022-07-11 19:05:41.780 Loader[77430:3218681] Available Virtual Formats=4:
+2022-07-11 19:05:41.780 Loader[77430:3218681] 1:LinearPCM(Float,Packed), 96000Hz, 1Channels, 32Bits
+2022-07-11 19:05:41.780 Loader[77430:3218681] 2:LinearPCM(Float,Packed), 88200Hz, 1Channels, 32Bits
+2022-07-11 19:05:41.780 Loader[77430:3218681] 3:LinearPCM(Float,Packed), 48000Hz, 1Channels, 32Bits
+2022-07-11 19:05:41.780 Loader[77430:3218681] 4:LinearPCM(Float,Packed), 44100Hz, 1Channels, 32Bits
+2022-07-11 19:05:41.780 Loader[77430:3218681] ===============================
+2022-07-11 19:05:41.780 Loader[77430:3218681]  [Msg] Set device format...
+2022-07-11 19:05:41.982 Loader[77430:3218681] Failed to verify audio Physical format.
+2022-07-11 19:05:42.184 Loader[77430:3218681] Failed to verify audio Virtual format.
+2022-07-11 19:05:42.184 Loader[77430:3218681] Current Physical format:LinearPCM(Float,Packed), 96000Hz, 1Channels, 32Bits
+2022-07-11 19:05:42.184 Loader[77430:3218681] Current Virtual format:LinearPCM(Float,Packed), 96000Hz, 1Channels, 32Bits
+2022-07-11 19:05:42.184 Loader[77430:3218681]  [Msg] Match device format...
+2022-07-11 19:05:42.285 Loader[77430:3218681] Success to set audio Physical format.
+2022-07-11 19:05:42.285 Loader[77430:3218681] Current Physical format:LinearPCM(Float,Packed), 48000Hz, 1Channels, 32Bits
+2022-07-11 19:05:42.285 Loader[77430:3218681] Current Virtual format:LinearPCM(Float,Packed), 48000Hz, 1Channels, 32Bits
+2022-07-11 19:05:42.285 Loader[77430:3218681]  [Msg] BufferFrameSizeRange=15~4096
+2022-07-11 19:05:42.286 Loader[77430:3218681]  [Msg] bufferFrameSize=4096
+2022-07-11 19:05:42.286 Loader[77430:3218681] Audio capture device format:LinearPCM(Float,Packed), 48000Hz, 1Channels, 32Bits
+2022-07-11 19:05:42.291 Loader[77430:3218681] AVCaptureAudioDataOutput Audio Settings: {
+    AVChannelLayoutKey = <02006500 00000000 02000000 01000000 00000000 00000000 00000000 00000000 02000000 00000000 00000000 00000000 00000000>;
+    AVFormatIDKey = 1819304813;
+    AVLinearPCMBitDepthKey = 32;
+    AVLinearPCMIsBigEndianKey = 0;
+    AVLinearPCMIsFloatKey = 1;
+    AVLinearPCMIsNonInterleaved = 0;
+    AVNumberOfChannelsKey = 2;
+    AVSampleRateKey = 48000;
+}
+2022-07-11 19:05:42.376 Loader[77430:3218681]  [Msg] Do not hook mouse 
+2022-07-11 19:05:42.413 Loader[77430:3219261] Source Pixel Buffer:<CVPixelBuffer 0x600012925900 width=3584 height=2240 bytesPerRow=14336 pixelFormat=BGRA iosurface=0x600001b1a350 poolName=SL.175:DisplayStream surface 0/8 attributes={
+    CGColorSpace = "<CGColorSpace 0x600003c803c0> (kCGColorSpaceICCBased; kCGColorSpaceModelRGB; sRGB IEC61966-2.1)";
+    Height = 2160;
+    IOSurfaceProperties =     {
+    };
+    OpenGLCompatibility = 1;
+    PixelFormatDescription =     {
+        BitsPerBlock = 32;
+        BitsPerComponent = 8;
+        BlackBlock = <000000ff>;
+        CGBitmapContextCompatibility = 1;
+        CGBitmapInfo = 8196;
+        CGImageCompatibility = 1;
+        ComponentRange = FullRange;
+        ContainsAlpha = 1;
+        ContainsGrayscale = 0;
+        ContainsRGB = 1;
+        ContainsYCbCr = 0;
+        FillExtendedPixelsCallback = <00000000 00000000 8dbb3d10 f87f0000 00000000 00000000>;
+        IOSurfaceCoreAnimationCompatibility = 1;
+        IOSurfaceOpenGLFBOCompatibility = 1;
+        IOSurfaceOpenGLTextureCompatibility = 1;
+        OpenGLCompatibility = 1;
+        OpenGLFormat = 32993;
+        OpenGLInternalFormat = 32856;
+        OpenGLTextureCacheCompatibility = 1;
+        OpenGLType = 33639;
+        PixelFormat = 1111970369;
+    };
+    PixelFormatType = 1111970369;
+    Width = 3456;
+} propagatedAttachments={
+} nonPropagatedAttachments={
+    CGColorSpace = "<CGColorSpace 0x600003c803c0> (kCGColorSpaceICCBased; kCGColorSpaceModelRGB; sRGB IEC61966-2.1)";
+}>
+2022-07-11 19:05:42.413 Loader[77430:3219261] Convert Pixel Buffer:<CVPixelBuffer 0x600012921680 width=3584 height=2240 pixelFormat=420f iosurface=0x600001bcf5f0 planes=2 poolName=encode_1>
+<Plane 0 width=3584 height=2240 bytesPerRow=3584>
+<Plane 1 width=1792 height=1120 bytesPerRow=3584>
+<attributes={
+    CVImageBufferColorPrimaries = "ITU_R_709_2";
+    CVImageBufferTransferFunction = "ITU_R_709_2";
+    CVImageBufferYCbCrMatrix = "ITU_R_709_2";
+    Height = 2240;
+    IOSurfaceProperties =     {
+        IOSurfacePurgeWhenNotInUse = 1;
+    };
+    OpenGLCompatibility = 1;
+    PixelFormatType = 875704422;
+    Width = 3584;
+} propagatedAttachments={
+} nonPropagatedAttachments={
+}>
+2022-07-11 19:05:50.189 Loader[77430:3218681]  [Msg] Call:~CScreenCaptureVA, this=0x7fb83b858970
+2022-07-11 19:05:50.244 Loader[77430:3218681]  [Msg] StopStream....
+2022-07-11 19:05:50.250 Loader[77430:3218681]  [Msg] StopStream OK.
+2022-07-11 19:05:50.250 Loader[77430:3218681]  [Msg] Stop wrtier...
+2022-07-11 19:05:50.250 Loader[77430:3219247]  [Msg] Audio finnshed
+2022-07-11 19:05:50.250 Loader[77430:3219260]  [Msg] Video finnshed
+2022-07-11 19:05:50.288 Loader[77430:3218681]  [Msg] Call:~CDisplayCaptureVideoStream, this=0x6000035fc600
+2022-07-11 19:05:50.288 Loader[77430:3218681]  [Msg] StopStream....
+2022-07-11 19:05:50.288 Loader[77430:3218681]  [Msg] StopStream OK.
+2022-07-11 19:05:50.288 Loader[77430:3218681]  [Msg] SkipFrames=0
+2022-07-11 19:05:50.288 Loader[77430:3218681]  [Msg] TotalFrames=149
+2022-07-11 19:05:50.288 Loader[77430:3218681]  [Msg] PutVideoFrame=2.91549s, Per=19.567ms
+2022-07-11 19:05:50.288 Loader[77430:3218681]  [Msg] CreaeSurface=0.00141317s, Per=0.00948435ms
+2022-07-11 19:05:50.288 Loader[77430:3218681]  [Msg] *** Total=2.91896s, Per=19.5904ms, Frame rate=51.0455
+2022-07-11 19:05:50.289 Loader[77430:3218681]  [Msg] Frame count=149, Time=7.78156sec Frame rate=19.1478frame/sec
+2022-07-11 19:05:50.291 Loader[77430:3218681]  [Msg] Call:~CCanvasList, this=0x7fb8ecac3260
+2022-07-11 19:05:50.291 Loader[77430:3218681]  [Msg] Record video time=7.781558sec.
+2022-07-11 19:05:50.291 Loader[77430:3218681]  [Msg] Record audio time=7.765333sec.
+2022-07-11 19:05:50.291 Loader[77430:3218681]  [Msg] Video frames=149
+2022-07-11 19:05:50.291 Loader[77430:3218681]  [Msg] Encoded video frames=149
+2022-07-11 19:05:50.291 Loader[77430:3218681]  [Msg] Audio samples=91
+2022-07-11 19:05:50.291 Loader[77430:3218681]  [Msg] Encoded audio samples=91
+2022-07-11 19:05:50.367 Loader[77430:3218681]  [Msg] Play file:/Users/renyu/Library/Application Support/FonePaw/FonePaw Screen Recorder/Screen Recorder/.FonePaw Screen Recorder.mov
+2022-07-11 19:05:50.367 Loader[77430:3218681]  [Msg] Create Object:CAVPlayerObject(0x60000398ea30)
+2022-07-11 19:05:51.262 Loader[77430:3218681] Player item is ready to be played.
+2022-07-11 19:06:11.445 Loader[77430:3218681]  [Msg] RequestPermissionScreenCapture ...
+2022-07-11 19:06:11.449 Loader[77430:3218681]  [Msg] RequestPermissionScreenCapture=2
+2022-07-11 19:06:11.449 Loader[77430:3218681]  [Msg] RequestPermissionScreenCapture ...
+2022-07-11 19:06:11.451 Loader[77430:3218681]  [Msg] RequestPermissionScreenCapture=2
+2022-07-11 19:06:11.454 Loader[77430:3218681]  [Msg] Screen Crop ...
+2022-07-11 19:06:11.454 Loader[77430:3218681]  [Msg] Create Object:CScreenCropObject(0x7fb8ecac0170)
+2022-07-11 19:06:11.461 Loader[77430:3218681]  [Msg] Call:CScreenCropBox, this=0x7fb8ecac0170
+2022-07-11 19:06:11.503 Loader[77430:3218681]  [Msg] Call:~CScreenCropBox, this=0x7fb8ecac0170
+2022-07-11 19:06:11.516 Loader[77430:3218681]  [Msg] RequestPermissionScreenCapture ...
+2022-07-11 19:06:11.519 Loader[77430:3218681]  [Msg] RequestPermissionScreenCapture=2
+2022-07-11 19:06:11.519 Loader[77430:3218681]  [Msg] RequestPermissionScreenCapture ...
+2022-07-11 19:06:11.522 Loader[77430:3218681]  [Msg] RequestPermissionScreenCapture=2
+2022-07-11 19:06:11.537 Loader[77430:3218681]  [Msg] Screen Crop ...
+2022-07-11 19:06:11.537 Loader[77430:3218681]  [Msg] Create Object:CScreenCropObject(0x7fb83b81f790)
+2022-07-11 19:06:11.542 Loader[77430:3218681]  [Msg] Call:CScreenCropBox, this=0x7fb83b81f790
+2022-07-11 19:06:17.306 Loader[77430:3218681]  [Msg] Call:~CScreenCropBox, this=0x7fb83b81f790
+2022-07-11 21:36:29.565 Loader[77430:3218681]  [Msg] ===============SCREENS===================
+2022-07-11 21:36:29.565 Loader[77430:3218681]  [Msg] 1, Name=Built-in Retina Display, Display={0x0-3584x2240}(3584x2240), Screen={0x0-1792x1120}(1792x1120)
+2022-07-11 21:36:29.565 Loader[77430:3218681]  [Msg] ==========================================
+2022-07-11 21:36:29.565 Loader[77430:3218681]  [Msg] Use Display 0
+Display={0x0-3584x2240}(3584x2240)
+Screen={0x0-1792x1120}(1792x1120)
+ScaleFactor=2
+Display resolution=3584x2240
+2022-07-11 21:36:29.565 Loader[77430:3218681]  [Wan] Display changed! use first display
+2022-07-11 21:36:29.565 Loader[77430:3218681]  [Msg] Use Display 0
+Display={0x0-3584x2240}(3584x2240)
+Screen={0x0-1792x1120}(1792x1120)
+ScaleFactor=2
+Display resolution=3584x2240
+2022-07-11 21:36:29.565 Loader[77430:3218681]  [Msg] RequestPermissionScreenCapture ...
+2022-07-11 21:36:29.581 Loader[77430:3218681]  [Msg] RequestPermissionScreenCapture=2
+2022-07-11 21:36:29.581 Loader[77430:3218681]  [Msg] RequestPermissionScreenCapture ...
+2022-07-11 21:36:29.597 Loader[77430:3218681]  [Msg] RequestPermissionScreenCapture=2
+2022-07-11 21:36:29.601 Loader[77430:3218681]  [Msg] Screen Crop ...
+2022-07-11 21:36:29.601 Loader[77430:3218681]  [Msg] Create Object:CScreenCropObject(0x7fb8ecc53fc0)
+2022-07-11 21:36:29.614 Loader[77430:3218681]  [Msg] Call:CScreenCropBox, this=0x7fb8ecc53fc0
+2022-07-11 21:36:42.612 Loader[77430:3218681]  [Msg] Call:~CScreenCropBox, this=0x7fb8ecc53fc0
+2022-07-11 21:36:42.617 Loader[77430:3218681]  [Msg] Delete aduio temporary file...
+2022-07-11 21:36:42.617 Loader[77430:3218681] Uninitialize screencast core.
