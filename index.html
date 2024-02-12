@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Jenny's Profile Onepage</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i&subset=cyrillic"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- dataTables template -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.css" />
+
+
+  <style>
+    .myskill {
+      width: 800px;
+      height: 100px;
+      position: relative;
+      font-family: 'Orbitron', sans-serif;
+
+    }
+
+    .item {
+      width: 100px;
+      font-size: 50px;
+      /* color: white; */
+      font-weight: bold;
+      text-align: center;
+      position: absolute;
+      /* margin: auto; */
+      /* opacity: 0; */
+      transform: translateY(30px);
+      animation: fadeIn 0.5s ease-out forwards;
+      /* display:inline-block; */
+    }
+
+    h1.fadeIn span {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeIn 0.5s ease-out forwards;
+      display: inline-block;
+    }
+
+    h1.fadeIn span:nth-of-type(2) {
+      animation-delay: 0.5s;
+    }
+
+    h1.fadeIn span:nth-of-type(3) {
+      animation-delay: 1s;
+    }
+
+    h1.fadeIn span:nth-of-type(4) {
+      animation-delay: 1.5s;
+    }
+
+    h1.fadeIn span:nth-of-type(5) {
+      animation-delay: 2s;
+    }
+
+    h1.fadeIn span:nth-of-type(6) {
+      animation-delay: 2.5s;
+    }
+
+    h1.fadeIn span:nth-of-type(7) {
+      animation-delay: 3s;
+    }
+
+    h1.fadeIn span:nth-of-type(8) {
+      animation-delay: 3.5s;
+    }
+
+    h1.fadeIn span:nth-of-type(9) {
+      animation-delay: 4s;
+    }
+
+    h1.fadeIn span:nth-of-type(10) {
+      animation-delay: 4.5s;
+    }
+
+    h1.fadeIn span:nth-of-type(11) {
+      animation-delay: 5s;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+
+
+
+    .swiper {
+      width: 320px;
+      height: 400px;
+    }
+
+    .swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 18px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .swiper-slide:nth-child(1n) {
+      background-color: rgba(206, 17, 17);
+    }
+
+    .swiper-slide:nth-child(2n) {
+      background-color: rgba(0, 140, 255);
+    }
+
+    .swiper-slide:nth-child(3n) {
+      background-color: rgba(10, 184, 111);
+    }
+
+    .swiper-slide:nth-child(4n) {
+      background-color: rgba(211, 122, 7);
+    }
+
+    .swiper-slide:nth-child(5n) {
+      background-color: rgba(118, 163, 12);
+    }
+
+    .swiper-slide:nth-child(6n) {
+      background-color: rgba(180, 10, 47);
+    }
+
+    .swiper-slide:nth-child(7n) {
+      background-color: rgba(35, 99, 19);
+    }
+
+    .swiper-slide:nth-child(8n) {
+      background-color: rgba(0, 68, 255);
+    }
+
+    .swiper-slide:nth-child(9n) {
+      background-color: rgba(218, 12, 218);
+    }
+
+    .swiper-slide:nth-child(10n) {
+      background-color: rgba(54, 94, 77);
+    }
+
+    .toindex {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .card-img-top,
+    .swiper-slide img {
+      width: 100%;
+      /* 使图片宽度等于容器宽度 */
+      height: auto;
+      /* 高度自动调整以保持图片比例 */
+      object-fit: cover;
+      /* 确保图片覆盖整个容器，可能会裁剪部分图片以填充容器 */
+    }
+
+    .card-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      /* 根據需求調整間距 */
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
+    <h1>Jenny Yu</h1>
+    <h2>I'm Web Developer & Network Management Engineer</h2>
+    <a href="#about" class="btn-get-started scrollto"><i class="bi bi-chevron-double-down"></i></a>
+  </section><!-- End Hero -->
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index.html">Jenny</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">首頁</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#about">關於我</a></li> -->
+          <li><a class="nav-link scrollto" href="#skills">我的專長</a></li>
+          <li><a class="nav-link scrollto" href="#resume">個人履歷</a></li>
+          <li><a class="nav-link scrollto" href="#services">作品集</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li> -->
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li> -->
+          <li><a class="nav-link scrollto" href="#contact">聯絡我</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= 關於我 Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row no-gutters">
+          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
+          <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
+            <div class="content d-flex flex-column justify-content-center">
+              <h3>網頁設計工程師、網路管理工程師</h3>
+              <p>
+                <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et -->
+                <!-- dolore magna aliqua. Duis aute irure dolor in reprehenderit -->
+              </p>
+              <!-- <div class="row">
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-emoji-smile"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-journal-richtext"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-clock"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate non vel</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-award"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+            <!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= 我的專長 Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>我的專長</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-12 text-center ">
+            <h1 class="fadeIn ">
+              <span>HTML,</span>
+              <span>CSS,</span>
+              <span>JavaScript,</span>
+              <span>jQuery,</span>
+              <span>PHP,</span>
+              <span>MySQL,</span>
+              <span>OCA,</span>
+              <span>CCNA,</span>
+              <!-- <span>CCNP</span> -->
+              <span>Network Management,</span>
+              <span>Network Design</span>
+            </h1>
+
+            <!-- <div class="progress">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div> -->
+
+          </div>
+
+          <!-- <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">PHP <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Photoshop <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div> -->
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Skills Section -->
+
+    <!-- ======= 個人履歷  Section ======= -->
+    <section id="resume" class="resume section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>個人履歷(範例sample)</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+        </div>
+
+         <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Jenny Yu</h4>
+              <p><em>我的職業之路標誌著持續學習和自我超越的旅程。</em></p>
+              <p>
+              <ul>
+                <!-- <li>Portland par 127,Orlando, FL</li> -->
+                <li>(123) 456-7891</li>
+                <li>jennyyu@example.com</li>
+              </ul>
+              </p>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>泰山職業訓練場 &amp; 全端網頁開發</h4>
+              <h5>2023/09 - 2024/03</h5>
+              <p><em></p>
+              <ul>
+                <li>資料庫程式設計：XAMPP安裝設定、PHP程式語言、MySQL資料庫操作、SQL語法、資料庫管理概念、Git版本控制等</li>
+                <li>網頁動態技術：javascript、jQuery、Bootstrap、RWD響應式網頁製作、Ajax技術應用等 </li>
+                <li>網頁排版編輯：HTML5、CSS3、網頁編輯器及工具使用等</li>
+                <li> 視覺影像設計：Photoshop數位影像處理、Illustrator向量繪圖設計等</li>
+                <li> 數位媒體應用：API串接、RESTful API、、MVC開發模式介紹、Laravel framework操作、網頁實作技術整合應用等</li>
+                <li> 資訊網路概論：資訊架構及網路應用概論等</li>
+                <li> 網頁設計實務：網頁設計乙級檢定輔導:「卓越科技大學校園資訊系統」網站、「健康促進網社群平台」網站、「ABC影城」網站、「精品電子商務」網站</li>
+              </ul>
+            </div>
+            <!-- <div class="resume-item">
+              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
+              <h5>2010 - 2014</h5>
+              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+            </div> -->
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>網頁設計工程師</h4>
+              <h5>2022 - Present</h5>
+              <p><em>泰山職業訓練場 </em></p>
+              <p>
+              <ul>
+                <li>網頁視覺設計</li>
+                <li>動態資料庫程式設計 </li>
+                <li>網際網路應用</li>
+                <li>網頁設計</li>
+              </ul>
+              </p>
+            </div>
+            <div class="resume-item">
+              <!-- <h4>Graphic design specialist</h4>
+              <h5>2017 - 2018</h5>
+              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <p>
+              <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul>
+              </p> -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Resume Section -->
+
+    <!-- ======= 作品集 Section ======= -->
+    <section id="services" class="services services-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>作品集</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/img/calendar.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">萬年曆</h5>
+                <p class="card-text">使用了HTML、CSS、PHP，以及JavaScript來實現其功能和外觀設計。<br><br>
+                  HTML：<br>
+                  構建了網頁的基本結構，包括日曆的顯示、表單輸入欄位、按鈕等。<br>
+                  CSS：<br>
+                  負責網頁的布局和樣式設計，例如日曆的格局、按鈕的動畫效果、背景圖片的輪播等。<br>
+                  PHP：<br>
+                  動態生成日曆內容，包括計算每月的天數、確定每月第一天是星期幾、處理表單提交的年月數據等。<br>
+                  JavaScript：<br>
+                  實現網頁的互動功能，如表單輸入的驗證、背景圖片的自動輪播等。<br>
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">
+                </small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/img/bq01_admin_before.png" class="card-img-top" alt="...">
+              <img src="./assets/img/bq01_admin_after.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">應用Bootstrap框架改寫卓越科技大學校園資訊系統</h5>
+                <p class="card-text">Bootstrap提供了一套響應式布局和元件，使得校園資訊系統能夠自動適應不同尺寸的屏幕和設備，無論是在桌面電腦、筆記本、平板還是手機上，都能提供良好的用戶體驗。
+                </p>
+              </div>
+              <div class="card-footer">
+                <!-- <small class="text-body-secondary">Last updated 3 mins ago</small> -->
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./assets/img/30animal/001_WHALE.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/30animal/002_PENGUIN.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/30animal/003_RHINO.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/30animal/004_BAT.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/30animal/005_TURTLE.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/30animal/006_BUTTERFLY.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/30animal/007_PARROT.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/30animal/008_SQUIRREL.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/30animal/009_ROOSTER.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/30animal/011_WALRUS.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/30animal/012_GOAT.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/30animal/014_KANGAROO.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/30animal/016_GORILLA.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/30animal/018_DOG.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/30animal/019_FOX.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/30animal/020_SHARK.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/30animal/022_OWL.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/30animal/028_DOLPHIN.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/30animal/030_HIPPO.jpg"></div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">黃金比例描繪動物集</h5>
+                <p class="card-text">使用黃金比例來創作或描繪不同的動物。黃金比例，也稱為黃金分割（Golden
+                  Ratio），是一個數學上的比例常數，約等於1.618。在藝術、建築、設計和自然界中廣泛存在，被認為是美的代表。</p>
+              </div>
+              <div class="card-footer">
+                <!-- <small class="text-body-secondary">Last updated 3 mins ago</small> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 天氣每天的日出、日沒及太陽過中天等時刻資料 start-->
+        <div class="row  mt-5">
+          
+          <h2 class="text-center">全臺各縣市每天的日出、日沒及太陽過中天等時刻資料</h2>
+          <table class="display" id="myTable">
+            
+            <thead>
+              <tr>
+                <th>id</th>
+                <th>日出日期</th>
+                <th>城市</th>
+                <th>日出時刻</th>
+                <th>方位角</th>
+                <th>太陽過中天</th>
+                <th>仰角</th>
+                <th>日落時刻</th>
+                <th>方位角</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- <tr>
+                      <td>11</td>
+                      <td>22</td>
+                  </tr> -->
+            </tbody>
+          </table>
+
+        </div>
+        <!-- 天氣每天的日出、日沒及太陽過中天等時刻資料 end-->
+
+
+
+
+      </div>
+
+    </section>
+    <!-- End 作品集 Section -->
+
+    <!-- ======= 作品集 Section ======= -->
+    <section id="services" class="services ">
+      <!-- <div class="container">
+        <div class="row mt-5 ">
+          <div class="col-md-6 col-lg-12 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-world"></i></div> -->
+      <!-- <div ><img src="./assets/icon/Ai.png" style="width: 90px;height: 60px;"> </div> -->
+      <!-- <h4 class="title"><a href="">Ai作業<br>黃金比例圓形繪製30隻動物</a></h4> -->
+
+      <!-- <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p> -->
+      <!-- </div>
+          </div>
+        </div>
+      </div> -->
+    </section>
+    <!-- End 作品集 Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+
+    <!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>聯絡我</h2>
+          <p></p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-4">
+            <pre>
+泰山職業訓練場交通位置描述：位於明志科技大學校內，由工專路進入明志校內，沿明一路/泰山職訓中心路標而上，約800公尺。
+
+交通描述一： 公車、捷運
+1.公車：三重客運(637、638)、指南客運(797、798、801、858、880、883、1501、1503)，至明志科技大學站下車。
+2.新北市泰山區公車(泰山區579明志國小-台北車站)：至貴子路下車後，步行至貴子路口左轉明志路3段，明志路直行約100公尺至工專路右轉，再直行即可至明志科技大學。
+3.捷運：臺北捷運中和新蘆線至丹鳳站1號出口或桃園捷運機場線至泰山貴和站（明志科大）1號出口，再轉乘公車或騎乘YouBike微笑單車（約10~15分鐘）至明志科技大學。
+
+交通描述二：自行開車 
+1.高速公路五股交流道下(往新莊、泰山)，經新五路至新北大道右轉，直行至貴子路口右轉，貴子路直行至明志路左轉。於明志路繼續前行約100公尺右轉工專路，即可抵達明科技大學。
+2.由台北車站走忠孝橋，直行高架道路，下到平面道路之後直行至貴子路口右轉，貴子路直行至明志路左轉，於明志路繼續前行約100公尺右轉工專路，即可抵達明科技大學。
+3.明志科大「汽車」停車費30元/小時，請儘量搭乘大眾交通工具或機車(免停車費)。
+            </pre>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="info">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-geo-alt"></i>
+                <p>243新北市<br>泰山區貴子里致遠新村55之1號</p>
+              </div>
+
+              <div class="d-flex align-items-center mt-4">
+                <i class="bi bi-envelope"></i>
+                <p>php11202@example.com</p>
+              </div>
+
+              <div class="d-flex align-items-center mt-4">
+                <i class="bi bi-phone"></i>
+                <p>02-2901-8274</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-8">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group mt-3">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>職訓局泰山訓練場_資料庫網頁設計</span></strong>. All Rights Reserved
+      </div>
+
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- 引入jQuery -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js'></script>
+
+  <!-- 引入gsap主程式_動畫用的！ -->
+  <script src="./assets/vendor/gsap/gsap.js"></script>
+
+  <!-- 引入dataTables.js -->
+  <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "cards",
+      grabCursor: true,
+      autoplay: {
+        delay: 1000, // 延遲時間為3000毫秒（3秒）
+        disableOnInteraction: false, // 當用戶互動（如滑動）後，自動播放不會停止
+      },
+      breakpoints: {
+    // 當螢幕寬度大於等於320px
+    320: {
+      slidesPerView: 1.2,
+      spaceBetween: 0.5
+      
+    },
+    // 當螢幕寬度大於等於480px
+    480: {
+      slidesPerView: 1.3,
+      spaceBetween: 0.5
+    },
+    // 當螢幕寬度大於等於640px
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 0.5
+    }
+  }
+    });
+
+    const tbody = $('tbody')
+    let today = new Date();
+    let year = today.getFullYear();
+    let month = today.getMonth() + 1; // 月份是从0开始的，所以需要加1
+    let day = today.getDate();
+
+    // 确保月份和日期为两位数格式
+    month = month < 10 ? '0' + month : month;
+    day = day < 10 ? '0' + day : day;
+
+    // 组合为 yyyy-mm-dd 格式
+    let formattedDate = year + '-' + month + '-' + day;
+    let sunnyUrl = `https://opendata.cwa.gov.tw/api/v1/rest/datastore/A-B0062-001?Authorization=CWA-A0973C12-B6C0-43AC-8B6F-F1CDEBC4EFE5&Date=${formattedDate}`;
+    let url = sunnyUrl;
+    // sunset=> 日沒時刻
+
+    let myOl = $('#myOl')
+
+
+    $.ajax({
+      type: "get",
+      url: url,
+      data: "data",
+      dataType: "json",
+      success: function (res) {
+        // . [] -> : property variable(變數)
+        // .xxx() ['xx']()  ->xxx():method function action (方法)
+
+        // console.log('res', res);
+        console.log('res.records.locations.location', res.records.locations.location);
+        // console.log('res.records.weatherElement', res['records']['weatherElement']);
+        // console.log('nowLocation',res.records.weatherElement.location);
+        let nowLocation = res.records.locations.location;
+
+        // jq each array
+        // let name= res.records.weatherElement;
+        // 创建<h2>标签并设置内容为'name'
+        let h2 = $('<h2>').text(name);
+
+        // 将<h2>标签添加到<body>的最前面
+        // $('body').append(h2);
+
+        $.each(nowLocation, function (key, value) {
+          // console.log('key', key);
+          // console.log('value.locationName', value.StationID);
+          let countryName = value.CountyName;
+          let sunDate = value.time[0]['Date'];
+          let sunRiseTime = value.time[0]['SunRiseTime'];
+          let sunSetTime = value.time[0]['SunSetTime'];
+          let sunRiseAZ = value.time[0]['SunRiseAZ'];
+          let sunTransitTime = value.time[0]['SunTransitTime'];
+          let sunTransitAlt = value.time[0]['SunTransitAlt'];
+          let sunSetAZ = value.time[0]['SunSetAZ'];
+
+
+          console.log('城市：', countryName)
+          console.log('sunDate_日出日期', sunDate)
+          console.log('sunRiseTime_日出', sunRiseTime)
+          console.log('sunSetTime_日落', sunSetTime)
+          let nowID = key + 1;
+          let stringID = nowID.toString().padStart(2, "0");
+          // let content=`
+          //     <li>${nowLocationName}</li>
+          // `;
+
+
+
+          let content = `
+                          <tr>
+                            <td>${stringID}</td>
+                            <td>${sunDate}</td>
+                            <td>${countryName}</td>
+                            <td>${sunRiseTime}</td>
+
+                            <td>${sunRiseAZ}</td>
+                            <td>${sunTransitTime}</td>
+                            <td>${sunTransitAlt}</td>
+                            <td>${sunSetTime}</td>
+                            <td>${sunSetAZ}</td>
+
+                            </tr>
+                            `;
+
+          tbody.append(content);
+
+        });
+
+        $('#myTable').DataTable({
+          language: {
+            "sProcessing": "處理中...",
+            "sLengthMenu": "顯示 _MENU_ 項結果",
+            "sZeroRecords": "查無結果",
+            "sInfo": "顯示第 _START_ 至 _END_ 項結果，共 _TOTAL_ 項",
+            "sInfoEmpty": "顯示第 0 至 0 項結果，共 0 項",
+            "sInfoFiltered": "(由 _MAX_ 項結果過濾)",
+            "sInfoPostFix": "",
+            "sSearch": "搜索:",
+            "sUrl": "",
+            "sEmptyTable": "表中數據為空",
+            "sLoadingRecords": "載入中...",
+            "sInfoThousands": ",",
+            "oPaginate": {
+              "sFirst": "首頁",
+              "sPrevious": "上頁",
+              "sNext": "下頁",
+              "sLast": "末頁"
+            },
+            "oAria": {
+              "sSortAscending": ": 以升序排列此列",
+              "sSortDescending": ": 以降序排列此列"
+            }
+          }
+        });
+      }
+
+    });
+  </script>
+
+</body>
+
+</html>
