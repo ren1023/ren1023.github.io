@@ -43,20 +43,6 @@
 
     }
 
-    .item {
-      width: 100px;
-      font-size: 50px;
-      /* color: white; */
-      font-weight: bold;
-      text-align: center;
-      position: absolute;
-      /* margin: auto; */
-      /* opacity: 0; */
-      transform: translateY(30px);
-      animation: fadeIn 0.5s ease-out forwards;
-      /* display:inline-block; */
-    }
-
     h1.fadeIn span {
       opacity: 0;
       transform: translateY(30px);
@@ -400,7 +386,7 @@
           <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
         </div>
 
-         <div class="row">
+        <div class="row">
           <div class="col-lg-6">
             <h3 class="resume-title">Sumary</h3>
             <div class="resume-item pb-0">
@@ -556,10 +542,10 @@
 
         <!-- 天氣每天的日出、日沒及太陽過中天等時刻資料 start-->
         <div class="row  mt-5">
-          
+
           <h2 class="text-center">全臺各縣市每天的日出、日沒及太陽過中天等時刻資料</h2>
           <table class="display" id="myTable">
-            
+
             <thead>
               <tr>
                 <th>id</th>
@@ -734,6 +720,33 @@
   <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>
 
   <script>
+    function resetAnimation() {
+      const spans = document.querySelectorAll('h1.fadeIn span');
+      spans.forEach((span, index) => {
+        // Remove the animation class
+        span.style.animation = 'none';
+        // Trigger reflow
+        span.offsetHeight;
+        // Re-apply the animation with a delay based on the element's index
+        span.style.animation = `fadeIn 0.5s ease-out forwards ${index * 0.5}s`;
+      });
+    }
+
+    // Initial animation start
+    resetAnimation();
+
+    // Function to restart the animation every N seconds
+    function repeatAnimation() {
+      setTimeout(() => {
+        resetAnimation();
+        // Adjust the time below based on the total duration of your animation
+        repeatAnimation();
+      }, (11 * 0.5 + 2) * 1000); // Number of spans * delay between them + extra wait time
+    }
+
+    repeatAnimation();
+
+
     var swiper = new Swiper(".mySwiper", {
       effect: "cards",
       grabCursor: true,
@@ -742,23 +755,23 @@
         disableOnInteraction: false, // 當用戶互動（如滑動）後，自動播放不會停止
       },
       breakpoints: {
-    // 當螢幕寬度大於等於320px
-    320: {
-      slidesPerView: 1.2,
-      spaceBetween: 0.5
-      
-    },
-    // 當螢幕寬度大於等於480px
-    480: {
-      slidesPerView: 1.3,
-      spaceBetween: 0.5
-    },
-    // 當螢幕寬度大於等於640px
-    640: {
-      slidesPerView: 1,
-      spaceBetween: 0.5
-    }
-  }
+        // 當螢幕寬度大於等於320px
+        320: {
+          slidesPerView: 1.2,
+          spaceBetween: 0.5
+
+        },
+        // 當螢幕寬度大於等於480px
+        480: {
+          slidesPerView: 1.3,
+          spaceBetween: 0.5
+        },
+        // 當螢幕寬度大於等於640px
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 0.5
+        }
+      }
     });
 
     const tbody = $('tbody')
